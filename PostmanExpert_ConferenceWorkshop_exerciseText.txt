@@ -14,7 +14,8 @@ Additional Collection to import
 6. Click on “Create’’
 7. You should now have a collection called “Restful Booker”
 
-
+Restful Booker API Host URL:
+167.71.124.251
 
 Exercise 2.1
 
