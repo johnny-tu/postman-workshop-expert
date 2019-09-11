@@ -1,0 +1,56 @@
+Collections to import
+https://documenter.getpostman.com/view/4805376/RznEKJNG 
+
+
+Exercise 2.1
+
+2) https://api.exchangeratesapi.io/{{date}}?base={{currency}}
+
+6)
+const moment = require('moment');
+
+var previousWeek = moment().subtract(7, 'days').format('YYYY-MM-DD');
+
+pm.environment.set("date", previousWeek);
+
+
+
+Exercise 2.2
+5)
+var bookingID = jsonData._Id;
+console.log(bookingID);
+pm.environment.set("bookingID", bookingID);
+
+postman.setNextRequest("Get Booking by ID");
+
+
+Exercise 2.3
+2)
+postman.setNextRequest("Get Auth Token");
+
+
+5)
+var jsonData = pm.response.json();
+pm.environment.set("authToken", jsonData.token);
+
+6)
+postman.setNextRequest("Update Booking (partial)");
+
+11)
+postman.setNextRequest("Delete Booking");
+
+Exercise 2.5
+1)
+if (jsonData.token === undefined) {
+	postman.setNextRequest(null);
+} else {
+	postman.setNextRequest("Update Booking (partial)");
+}
+
+
+
+
+
+
+
+
