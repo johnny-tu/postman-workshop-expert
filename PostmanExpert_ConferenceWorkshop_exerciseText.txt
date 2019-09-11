@@ -1,5 +1,19 @@
-Collections to import
+Course materials
+https://tinyurl.com/y3a7use9
+
+Collection to import
 https://documenter.getpostman.com/view/4805376/RznEKJNG 
+- Click the run in Postman Button
+
+Additional Collection to import
+1. Click the “New” button on the top left of the Postman App
+2. Select the Templates tab
+3. Use the search function to search for “Postman Workshop”
+4. You should see a template called “Postman Workshop Restful Booker”
+5. Select the template and click “Run in Postman”
+6. Click on “Create’’
+7. You should now have a collection called “Restful Booker”
+
 
 
 Exercise 2.1
